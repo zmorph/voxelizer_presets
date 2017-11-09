@@ -1,0 +1,28 @@
+{
+    "presets": [
+        {
+            "is_protected": false,
+            "preset_name": "Polyamide PA6",
+            "preset_type": "cnc_material",
+            "printer": "ZMorph 2.0",
+            "settings": [
+                {
+                    "name": "cut_speed",
+                    "type": "double",
+                    "value": 15.0
+                },
+                {
+                    "name": "lead_speed",
+                    "type": "double",
+                    "value": 8.0
+                },
+                {
+                    "name": "max_cut_amount",
+                    "type": "double",
+                    "value": 20.0
+                }
+            ]
+        }
+    ],
+    "voxelizer_version": "v1.5.6-49-g08eaed"
+}

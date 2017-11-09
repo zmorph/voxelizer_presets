@@ -1,0 +1,193 @@
+{
+    "presets": [
+        {
+            "is_protected": true,
+            "preset_name": "Prusa_ABS",
+            "preset_type": "material",
+            "printer": "Prusa i3",
+            "settings": [
+                {
+                    "name": "travel_speed",
+                    "type": "double",
+                    "value": 150
+                },
+                {
+                    "name": "height_min_multiplier",
+                    "type": "double",
+                    "value": 0.3
+                },
+                {
+                    "name": "retraction_speed_z",
+                    "type": "double",
+                    "value": 10
+                },
+                {
+                    "name": "fan_speed_percentage",
+                    "type": "double",
+                    "value": 100
+                },
+                {
+                    "name": "power_raft_second_layer_angle_offset",
+                    "type": "double",
+                    "value": 45
+                },
+                {
+                    "name": "filament_diameter_multiplier",
+                    "type": "double",
+                    "value": 1
+                },
+                {
+                    "name": "first_layer_width",
+                    "type": "double",
+                    "value": 0.35
+                },
+                {
+                    "name": "wipe_distance",
+                    "type": "double",
+                    "value": 3
+                },
+                {
+                    "name": "default_print_speed",
+                    "type": "double",
+                    "value": 40
+                },
+                {
+                    "name": "retraction_height",
+                    "type": "double",
+                    "value": 0.5
+                },
+                {
+                    "name": "retraction_amount",
+                    "type": "double",
+                    "value": 3
+                },
+                {
+                    "name": "filament_min_artifact_length",
+                    "type": "double",
+                    "value": 25
+                },
+                {
+                    "name": "retraction_speed_e",
+                    "type": "double",
+                    "value": 25
+                },
+                {
+                    "name": "fan_min_speed_percentage",
+                    "type": "double",
+                    "value": 80
+                },
+                {
+                    "name": "adhesion_ratio_max",
+                    "type": "double",
+                    "value": 2
+                },
+                {
+                    "name": "height_max_multiplier",
+                    "type": "double",
+                    "value": 0.85
+                },
+                {
+                    "name": "minimum_layer_time",
+                    "type": "double",
+                    "value": 10
+                },
+                {
+                    "name": "hotbed_temperature",
+                    "type": "double",
+                    "value": 100
+                },
+                {
+                    "name": "extruder_temperature_1",
+                    "type": "double",
+                    "value": 255
+                },
+                {
+                    "name": "extruder_temperature_2",
+                    "type": "double",
+                    "value": 255
+                },
+                {
+                    "name": "small_perimeter_threshold",
+                    "type": "double",
+                    "value": 10
+                },
+                {
+                    "name": "small_perimeter_speed_percentage",
+                    "type": "double",
+                    "value": 30
+                },
+                {
+                    "name": "bottom_layer_empty_space",
+                    "type": "double",
+                    "value": 0.2
+                },
+                {
+                    "name": "power_raft_third_layer_size_multiplayer",
+                    "type": "double",
+                    "value": 1
+                },
+                {
+                    "name": "first_layer_height",
+                    "type": "double",
+                    "value": 0.25
+                },
+                {
+                    "name": "first_layer_print_speed_percentage",
+                    "type": "double",
+                    "value": 50
+                },
+                {
+                    "name": "power_raft_third_layer_angle_offset",
+                    "type": "double",
+                    "value": 45
+                },
+                {
+                    "name": "power_raft_third_layer_infill",
+                    "type": "double",
+                    "value": 50
+                },
+                {
+                    "name": "fan_free_layers",
+                    "type": "int",
+                    "value": 3
+                },
+                {
+                    "name": "retraction_additional_action",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "name": "enable_retraction",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "name": "use_travel_deceleration",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "name": "wipe_nozzle",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "name": "enable_fan",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "name": "preheat",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "name": "start_position",
+                    "type": "string",
+                    "value": "complex"
+                }
+            ]
+        }
+    ],
+    "voxelizer_version": ""
+}

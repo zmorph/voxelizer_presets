@@ -1,0 +1,53 @@
+{
+    "presets": [
+        {
+            "is_protected": true,
+            "preset_name": "solid",
+            "preset_type": "support",
+            "printer": "default",
+            "settings": [
+                {
+                    "name": "support_connection_threshold",
+                    "type": "double",
+                    "value": 0.4
+                },
+                {
+                    "name": "support_filament_amount_percentage",
+                    "type": "double",
+                    "value": 80.0
+                },
+                {
+                    "name": "branch_angle",
+                    "type": "double",
+                    "value": 30.0
+                },
+                {
+                    "name": "support_minimum_length",
+                    "type": "double",
+                    "value": 0.4
+                },
+                {
+                    "name": "support_offset",
+                    "type": "double",
+                    "value": 0.4
+                },
+                {
+                    "name": "support_spacing",
+                    "type": "double",
+                    "value": 2.0
+                },
+                {
+                    "name": "support_infill_angle",
+                    "type": "double",
+                    "value": 90.0
+                },
+                {
+                    "name": "support_type",
+                    "type": "string",
+                    "value": "outline & infill"
+                }
+            ]
+        }
+    ],
+    "voxelizer_version": "v1.5.1"
+}

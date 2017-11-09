@@ -1,0 +1,43 @@
+{
+    "presets": [
+        {
+            "is_protected": false,
+            "preset_name": "V-shape engraving bit",
+            "preset_type": "cnc_tool",
+            "printer": "ZMorph 2.0",
+            "settings": [
+                {
+                    "name": "cnc_flute_length",
+                    "type": "double",
+                    "value": 2.0
+                },
+                {
+                    "name": "cnc_tool_diameter",
+                    "type": "double",
+                    "value": 0.1
+                },
+                {
+                    "name": "cnc_tool_body_length",
+                    "type": "double",
+                    "value": 15.0
+                },
+                {
+                    "name": "cnc_step_over",
+                    "type": "double",
+                    "value": 1.0
+                },
+                {
+                    "name": "cnc_flute_numbers",
+                    "type": "int",
+                    "value": 1
+                },
+                {
+                    "name": "cnc_tool_tip_shape",
+                    "type": "string",
+                    "value": "V-shape"
+                }
+            ]
+        }
+    ],
+    "voxelizer_version": "v1.5.6-49-g08eaed"
+}

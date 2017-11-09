@@ -1,0 +1,23 @@
+{
+    "presets": [
+        {
+            "is_protected": false,
+            "preset_name": "Paint evaporating",
+            "preset_type": "laser_material",
+            "printer": "ZMorph 2.0",
+            "settings": [
+                {
+                    "name": "laser work speed",
+                    "type": "double",
+                    "value": 13.0
+                },
+                {
+                    "name": "laser cooling time",
+                    "type": "double",
+                    "value": 10.0
+                }
+            ]
+        }
+    ],
+    "voxelizer_version": "v1.5.6-49-g08eaed"
+}
