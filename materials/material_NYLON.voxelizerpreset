@@ -2,9 +2,8 @@
     "presets": [
         {
             "is_protected": true,
-            "preset_name": "ABS Zmorph",
+            "preset_name": "NYLON",
             "preset_type": "material",
-            "printer": "ZMorph 2.0",
             "settings": [
                 {
                     "name": "retraction_speed_z",
@@ -19,7 +18,19 @@
                 {
                     "name": "retraction_amount",
                     "type": "double",
-                    "value": 3.0
+                    "value": 6.0
+                },
+                {
+                    "name": "default_print_speed",
+                    "overrides": [
+                        {
+                            "printer": "ZMorph",
+                            "toolhead": "Dual Pro",
+                            "value": 24.0
+                        }
+                    ],
+                    "type": "double",
+                    "value": 30.0
                 },
                 {
                     "name": "retraction_height",
@@ -27,19 +38,9 @@
                     "value": 0.1
                 },
                 {
-                    "name": "default_print_speed",
-                    "type": "double",
-                    "value": 30.0
-                },
-                {
                     "name": "first_layer_width",
                     "type": "double",
                     "value": 0.35
-                },
-                {
-                    "name": "wipe_distance",
-                    "type": "double",
-                    "value": 3.0
                 },
                 {
                     "name": "flow_min_multiplier",
@@ -47,24 +48,36 @@
                     "value": 0.5
                 },
                 {
+                    "name": "wipe_distance",
+                    "type": "double",
+                    "value": 2.0
+                },
+                {
+                    "name": "retraction_speed_e",
+                    "overrides": [
+                        {
+                            "printer": "ZMorph",
+                            "toolhead": "Dual Pro",
+                            "value": 30.0
+                        }
+                    ],
+                    "type": "double",
+                    "value": 120.0
+                },
+                {
                     "name": "filament_min_artifact_length",
                     "type": "double",
                     "value": 25.0
                 },
                 {
-                    "name": "retraction_speed_e",
+                    "name": "power_raft_second_layer_angle_offset",
                     "type": "double",
-                    "value": 100.0
+                    "value": 45.0
                 },
                 {
                     "name": "fan_speed_percentage",
                     "type": "double",
                     "value": 50.0
-                },
-                {
-                    "name": "power_raft_second_layer_angle_offset",
-                    "type": "double",
-                    "value": 45.0
                 },
                 {
                     "name": "fan_min_speed_percentage",
@@ -87,6 +100,18 @@
                     "value": 2.0
                 },
                 {
+                    "name": "filament_diameter",
+                    "overrides": [
+                        {
+                            "printer": "ZMorph",
+                            "toolhead": "Single 3.00",
+                            "value": 2.85
+                        }
+                    ],
+                    "type": "double",
+                    "value": 1.75
+                },
+                {
                     "name": "height_max_multiplier",
                     "type": "double",
                     "value": 0.75
@@ -98,28 +123,35 @@
                 },
                 {
                     "name": "filament_diameter_multiplier",
+                    "overrides": [
+                        {
+                            "printer": "ZMorph",
+                            "toolhead": "Single 1.75",
+                            "value": 1.0
+                        }
+                    ],
                     "type": "double",
-                    "value": 1.03
+                    "value": 1.0
                 },
                 {
                     "name": "hotbed_temperature",
                     "type": "double",
-                    "value": 100.0
+                    "value": 125.0
                 },
                 {
                     "name": "extruder_temperature_1",
                     "type": "double",
-                    "value": 235.0
+                    "value": 240.0
                 },
                 {
                     "name": "extruder_temperature_2",
                     "type": "double",
-                    "value": 235.0
+                    "value": 240.0
                 },
                 {
                     "name": "small_perimeter_threshold",
                     "type": "double",
-                    "value": 10.0
+                    "value": 20.0
                 },
                 {
                     "name": "small_perimeter_speed_percentage",
@@ -132,14 +164,14 @@
                     "value": 90.0
                 },
                 {
-                    "name": "bottom_layer_empty_space",
-                    "type": "double",
-                    "value": 0.15
-                },
-                {
                     "name": "power_raft_third_layer_size_multiplayer",
                     "type": "double",
                     "value": 1.0
+                },
+                {
+                    "name": "bottom_layer_empty_space",
+                    "type": "double",
+                    "value": 0.12
                 },
                 {
                     "name": "first_layer_height",
@@ -149,7 +181,7 @@
                 {
                     "name": "first_layer_print_speed_percentage",
                     "type": "double",
-                    "value": 50.0
+                    "value": 40.0
                 },
                 {
                     "name": "power_raft_third_layer_angle_offset",
@@ -162,6 +194,26 @@
                     "value": 50.0
                 },
                 {
+                    "name": "wipe_retract_on_start",
+                    "type": "double",
+                    "value": 0.0
+                },
+                {
+                    "name": "infill_print_speed_percentage",
+                    "type": "double",
+                    "value": 100.0
+                },
+                {
+                    "name": "extrusion_multiplier",
+                    "type": "double",
+                    "value": 1.0
+                },
+                {
+                    "name": "artifact_print_speed_percentage",
+                    "type": "double",
+                    "value": 100.0
+                },
+                {
                     "name": "fan_free_layers",
                     "type": "int",
                     "value": 3
@@ -169,7 +221,7 @@
                 {
                     "name": "retraction_additional_action",
                     "type": "bool",
-                    "value": false
+                    "value": true
                 },
                 {
                     "name": "enable_retraction",
@@ -197,7 +249,22 @@
                     "value": false
                 },
                 {
-                    "name": "additional action",
+                    "name": "use_travel_deceleration",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "name": "move_inside_object",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "name": "adaptive_layer_height",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "name": "perform_convolution",
                     "type": "bool",
                     "value": false
                 },
@@ -209,5 +276,5 @@
             ]
         }
     ],
-    "voxelizer_version": "v1.5.6"
+    "voxelizer_version": ""
 }
