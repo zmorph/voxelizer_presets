@@ -3,8 +3,7 @@
         {
             "is_protected": true,
             "preset_name": "light",
-            "preset_type": "support",
-            "printer": "default",
+            "preset_type": "support",            
             "settings": [
                 {
                     "name": "support_connection_threshold",

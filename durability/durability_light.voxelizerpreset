@@ -4,7 +4,6 @@
             "is_protected": true,
             "preset_name": "light",
             "preset_type": "durability",
-            "printer": "default",
             "settings": [
                 {
                     "name": "border_inset",

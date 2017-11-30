@@ -3,8 +3,7 @@
         {
             "is_protected": true,
             "preset_name": "adaptive",
-            "preset_type": "durability",
-            "printer": "default",
+            "preset_type": "durability",            
             "settings": [
                 {
                     "name": "infill_min_percentage",

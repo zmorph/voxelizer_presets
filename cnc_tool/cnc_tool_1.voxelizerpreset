@@ -4,7 +4,6 @@
             "is_protected": false,
             "preset_name": "1.8mm single flute",
             "preset_type": "cnc_tool",
-            "printer": "ZMorph 2.0",
             "settings": [
                 {
                     "name": "cnc_flute_length",

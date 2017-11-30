@@ -4,7 +4,6 @@
             "is_protected": false,
             "preset_name": "FR4 CCL",
             "preset_type": "cnc_material",
-            "printer": "ZMorph 2.0",
             "settings": [
                 {
                     "name": "cut_speed",

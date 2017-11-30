@@ -4,7 +4,6 @@
             "is_protected": true,
             "preset_name": "solid PVA",
             "preset_type": "support",
-            "printer": "default",
             "settings": [
                 {
                     "name": "support_filament_amount_percentage",
