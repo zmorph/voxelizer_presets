@@ -230,11 +230,6 @@
                     "name": "preheat",
                     "type": "bool",
                     "value": true
-                },
-                {
-                    "name": "start_position",
-                    "type": "string",
-                    "value": "complex"
                 }
             ]
         }

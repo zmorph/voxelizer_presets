@@ -310,11 +310,6 @@
                     "name": "perform_convolution",
                     "type": "bool",
                     "value": false
-                },
-                {
-                    "name": "start_position",
-                    "type": "string",
-                    "value": "complex"
                 }
             ]
         }
