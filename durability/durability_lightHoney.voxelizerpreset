@@ -2,9 +2,8 @@
     "presets": [
         {
             "is_protected": true,
-            "preset_name": "light",
+            "preset_name": "light honeycomb",
             "preset_type": "durability",
-            "printer": "default",
             "settings": [
                 {
                     "name": "border_inset",
@@ -19,17 +18,17 @@
                 {
                     "name": "infill_max_percentage",
                     "type": "double",
-                    "value": 30.0
-                },
-                {
-                    "name": "infill_angle",
-                    "type": "double",
-                    "value": 45.0
+                    "value": 50.0
                 },
                 {
                     "name": "infill_offset",
                     "type": "double",
                     "value": -0.1
+                },
+                {
+                    "name": "infill_angle",
+                    "type": "double",
+                    "value": 0.0
                 },
                 {
                     "name": "solid_depth_bottom",
@@ -52,9 +51,9 @@
                     "value": 0.0
                 },
                 {
-                    "name": "solid_bottom_layers",
-                    "type": "int",
-                    "value": 3
+                    "name": "width_height_ratio",
+                    "type": "double",
+                    "value": 2.0
                 },
                 {
                     "name": "outline_count",
@@ -62,19 +61,34 @@
                     "value": 2
                 },
                 {
+                    "name": "solid_bottom_layers",
+                    "type": "int",
+                    "value": 3
+                },
+                {
                     "name": "solid_top_layers",
                     "type": "int",
                     "value": 0
                 },
                 {
-                    "name": "extrude_odd_outlines",
+                    "name": "fill_gaps",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "name": "sort_and_merge",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "name": "line_crossing",
                     "type": "bool",
                     "value": false
                 },
                 {
                     "name": "infill_type",
                     "type": "string",
-                    "value": "rectilinear"
+                    "value": "honeycomb"
                 },
                 {
                     "name": "extrusion_order",
@@ -84,5 +98,5 @@
             ]
         }
     ],
-    "voxelizer_version": "v1.5.10-17-gb98ec4"
+    "voxelizer_version": "v1.5.11-175-gae40b9"
 }
