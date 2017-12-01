@@ -180,12 +180,7 @@
                     "value": 60.0
                 },
                 {
-                    "name": "extruder_temperature_1",
-                    "type": "double",
-                    "value": 215.0
-                },
-                {
-                    "name": "extruder_temperature_2",
+                    "name": "extruder_temperature",
                     "type": "double",
                     "value": 215.0
                 },

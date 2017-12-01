@@ -180,7 +180,7 @@
                     "value": 60.0
                 },
                 {
-                    "name": "extruder_temperature_1",
+                    "name": "extruder_temperature",
                     "overrides": [
                         {
                             "printer": "ZMorph",
@@ -190,23 +190,6 @@
                         {
                             "printer": "ZMorph",
                             "toolhead": "Single 3.00",
-                            "value": 205.0
-                        }
-                    ],
-                    "type": "double",
-                    "value": 200.0
-                },
-                {
-                    "name": "extruder_temperature_2",
-                    "overrides": [
-                        {
-                            "printer": "ZMorph",
-                            "toolhead": "Single 3.00",
-                            "value": 205.0
-                        },
-                        {
-                            "printer": "ZMorph",
-                            "toolhead": "Dual Pro",
                             "value": 205.0
                         }
                     ],

@@ -180,15 +180,10 @@
                     "value": 85.0
                 },
                 {
-                    "name": "extruder_temperature_1",
+                    "name": "extruder_temperature",
                     "type": "double",
                     "value": 255.0
-                },
-                {
-                    "name": "extruder_temperature_2",
-                    "type": "double",
-                    "value": 255.0
-                },
+                }
                 {
                     "name": "small_perimeter_threshold",
                     "type": "double",
