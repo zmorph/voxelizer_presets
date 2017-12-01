@@ -183,7 +183,7 @@
                     "name": "extruder_temperature",
                     "type": "double",
                     "value": 255.0
-                }
+                },
                 {
                     "name": "small_perimeter_threshold",
                     "type": "double",
