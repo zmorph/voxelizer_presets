@@ -268,7 +268,7 @@
                 {
                     "name": "artifact_print_speed_percentage",
                     "type": "double",
-                    "value": 100.0
+                    "value": 150.0
                 },
                 {
                     "name": "fan_free_layers",
