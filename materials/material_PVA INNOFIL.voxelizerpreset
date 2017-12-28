@@ -2,7 +2,7 @@
     "presets": [
         {
             "is_protected": false,
-            "preset_name": "2PVA Zmorph",
+            "preset_name": "PVA Innofil",
             "preset_type": "material",
             "settings": [
                 {
@@ -21,14 +21,14 @@
                     "value": 10.0
                 },
                 {
-                    "name": "power_raft_second_layer_angle_offset",
-                    "type": "double",
-                    "value": 45.0
-                },
-                {
                     "name": "fan_speed_percentage",
                     "type": "double",
                     "value": 100.0
+                },
+                {
+                    "name": "power_raft_second_layer_angle_offset",
+                    "type": "double",
+                    "value": 45.0
                 },
                 {
                     "name": "filament_diameter_multiplier",
@@ -75,6 +75,11 @@
                     "value": 2.0
                 },
                 {
+                    "name": "default_print_speed",
+                    "type": "double",
+                    "value": 20.0
+                },
+                {
                     "name": "retraction_height",
                     "overrides": [
                         {
@@ -85,11 +90,6 @@
                     ],
                     "type": "double",
                     "value": 0.1
-                },
-                {
-                    "name": "default_print_speed",
-                    "type": "double",
-                    "value": 20.0
                 },
                 {
                     "name": "first_layer_width",
@@ -116,6 +116,11 @@
                     "value": 4.0
                 },
                 {
+                    "name": "filament_min_artifact_length",
+                    "type": "double",
+                    "value": 100.0
+                },
+                {
                     "name": "retraction_speed_e",
                     "overrides": [
                         {
@@ -128,19 +133,9 @@
                     "value": 100.0
                 },
                 {
-                    "name": "filament_min_artifact_length",
-                    "type": "double",
-                    "value": 100.0
-                },
-                {
                     "name": "adhesion_ratio_max",
                     "type": "double",
                     "value": 2.25
-                },
-                {
-                    "name": "height_max_multiplier",
-                    "type": "double",
-                    "value": 0.85
                 },
                 {
                     "name": "filament_diameter",
@@ -153,6 +148,11 @@
                     ],
                     "type": "double",
                     "value": 1.75
+                },
+                {
+                    "name": "height_max_multiplier",
+                    "type": "double",
+                    "value": 0.85
                 },
                 {
                     "name": "minimum_layer_time",
@@ -185,11 +185,6 @@
                     "value": 30.0
                 },
                 {
-                    "name": "power_raft_third_layer_size_multiplayer",
-                    "type": "double",
-                    "value": 1.0
-                },
-                {
                     "name": "bottom_layer_empty_space",
                     "overrides": [
                         {
@@ -200,6 +195,11 @@
                     ],
                     "type": "double",
                     "value": 0.175
+                },
+                {
+                    "name": "power_raft_third_layer_size_multiplayer",
+                    "type": "double",
+                    "value": 1.0
                 },
                 {
                     "name": "first_layer_print_speed_percentage",
@@ -246,7 +246,7 @@
                 {
                     "name": "extruder_temperature",
                     "type": "double",
-                    "value": 200.0
+                    "value": 210.0
                 },
                 {
                     "name": "fan_free_layers",
@@ -268,11 +268,6 @@
                         }
                     ],
                     "type": "bool",
-                    "value": true
-                },
-                {
-                    "name": "use_travel_deceleration",
-                    "type": "bool",
                     "value": false
                 },
                 {
@@ -281,12 +276,17 @@
                     "value": false
                 },
                 {
-                    "name": "wipe_nozzle",
+                    "name": "use_travel_deceleration",
                     "type": "bool",
                     "value": false
                 },
                 {
                     "name": "perform_convolution",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "name": "wipe_nozzle",
                     "type": "bool",
                     "value": false
                 },
