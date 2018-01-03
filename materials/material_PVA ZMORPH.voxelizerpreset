@@ -83,6 +83,13 @@
                 },
                 {
                     "name": "filament_min_artifact_length",
+                    "overrides": [
+                        {
+                            "printer": "ZMorph",
+                            "toolhead": "Dual 1.75",
+                            "value": 2.0
+                        }
+                    ],
                     "type": "double",
                     "value": 100.0
                 },
