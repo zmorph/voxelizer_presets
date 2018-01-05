@@ -1,0 +1,57 @@
+{
+    "presets": [
+        {
+            "is_protected": false,
+            "preset_name": "LCHR 25um Amber-Flexible",
+            "preset_type": "DLP_profile",
+            "settings": [
+                {
+                    "name": "dlp_drop_speed",
+                    "type": "double",
+                    "value": 50.0
+                },
+                {
+                    "name": "dlp_layer_height",
+                    "type": "double",
+                    "value": 0.025
+                },
+                {
+                    "name": "dlp_lift_distance",
+                    "type": "double",
+                    "value": 4.0
+                },
+                {
+                    "name": "dlp_lift_speed",
+                    "type": "double",
+                    "value": 15.0
+                },
+                {
+                    "name": "dlp_blank_time_down",
+                    "type": "int",
+                    "value": 8000
+                },
+                {
+                    "name": "dlp_blank_time_up",
+                    "type": "int",
+                    "value": 16200
+                },
+                {
+                    "name": "dlp_bottom_layers_time",
+                    "type": "int",
+                    "value": 60000
+                },
+                {
+                    "name": "dlp_layer_time",
+                    "type": "int",
+                    "value": 18000
+                },
+                {
+                    "name": "dlp_number_of_bottom_layers",
+                    "type": "int",
+                    "value": 1
+                }
+            ]
+        }
+    ],
+    "voxelizer_version": "v1.6.1-44-g3fefe5"
+}
