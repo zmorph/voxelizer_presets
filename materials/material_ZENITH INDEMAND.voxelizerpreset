@@ -31,16 +31,6 @@
                     "value": 240.0
                 },
                 {
-                    "name": "extruder_temperature_1",
-                    "type": "double",
-                    "value": 215.0
-                },
-                {
-                    "name": "extruder_temperature_2",
-                    "type": "double",
-                    "value": 215.0
-                },
-                {
                     "name": "extrusion_multiplier",
                     "type": "double",
                     "value": 1.06
