@@ -3,13 +3,8 @@
         {
             "is_protected": true,
             "preset_name": "tree",
-            "preset_type": "support",            
+            "preset_type": "support",
             "settings": [
-                {
-                    "name": "support_filament_amount_percentage",
-                    "type": "double",
-                    "value": 100.0
-                },
                 {
                     "name": "branch_angle",
                     "type": "double",
@@ -19,6 +14,11 @@
                     "name": "support_connection_threshold",
                     "type": "double",
                     "value": 1.0
+                },
+                {
+                    "name": "support_filament_amount_percentage",
+                    "type": "double",
+                    "value": 100.0
                 },
                 {
                     "name": "support_minimum_length",
@@ -42,6 +42,5 @@
                 }
             ]
         }
-    ],
-    "voxelizer_version": "v1.5.1"
+    ]
 }

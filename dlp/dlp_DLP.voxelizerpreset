@@ -6,11 +6,6 @@
             "preset_type": "DLP",
             "settings": [
                 {
-                    "name": "support_filament_amount_percentage",
-                    "type": "double",
-                    "value": 100.0
-                },
-                {
                     "name": "branch_angle",
                     "type": "double",
                     "value": 30.0
@@ -19,6 +14,16 @@
                     "name": "support_connection_threshold",
                     "type": "double",
                     "value": 1.0
+                },
+                {
+                    "name": "support_filament_amount_percentage",
+                    "type": "double",
+                    "value": 100.0
+                },
+                {
+                    "name": "support_infill_angle",
+                    "type": "double",
+                    "value": 90.0
                 },
                 {
                     "name": "support_minimum_length",
@@ -41,17 +46,11 @@
                     "value": 1.0
                 },
                 {
-                    "name": "support_infill_angle",
-                    "type": "double",
-                    "value": 90.0
-                },
-                {
                     "name": "support_type",
                     "type": "string",
                     "value": "DLP"
                 }
             ]
         }
-    ],
-    "voxelizer_version": "v1.6.1-22-g13287d"
+    ]
 }

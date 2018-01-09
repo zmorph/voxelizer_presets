@@ -3,8 +3,13 @@
         {
             "is_protected": true,
             "preset_name": "light",
-            "preset_type": "support",            
+            "preset_type": "support",
             "settings": [
+                {
+                    "name": "cutoff_angle",
+                    "type": "double",
+                    "value": 30.0
+                },
                 {
                     "name": "support_connection_threshold",
                     "type": "double",
@@ -26,11 +31,6 @@
                     "value": 0.4
                 },
                 {
-                    "name": "cutoff_angle",
-                    "type": "double",
-                    "value": 30.0
-                },
-                {
                     "name": "support_spacing",
                     "type": "double",
                     "value": 1.5
@@ -42,6 +42,5 @@
                 }
             ]
         }
-    ],
-    "voxelizer_version": "v1.5.1"
+    ]
 }

@@ -3,22 +3,27 @@
         {
             "is_protected": true,
             "preset_name": "no support",
-            "preset_type": "support",            
+            "preset_type": "support",
             "settings": [
                 {
-                    "name": "support_filament_amount_percentage",
+                    "name": "cutoff_angle",
                     "type": "double",
-                    "value": 85
+                    "value": 30.0
                 },
                 {
                     "name": "support_connection_threshold",
                     "type": "double",
-                    "value": 5
+                    "value": 5.0
+                },
+                {
+                    "name": "support_filament_amount_percentage",
+                    "type": "double",
+                    "value": 85.0
                 },
                 {
                     "name": "support_minimum_length",
                     "type": "double",
-                    "value": 10
+                    "value": 10.0
                 },
                 {
                     "name": "support_offset",
@@ -26,14 +31,9 @@
                     "value": 0.4
                 },
                 {
-                    "name": "cutoff_angle",
-                    "type": "double",
-                    "value": 30
-                },
-                {
                     "name": "support_spacing",
                     "type": "double",
-                    "value": 2
+                    "value": 2.0
                 },
                 {
                     "name": "support_type",
@@ -42,6 +42,5 @@
                 }
             ]
         }
-    ],
-    "voxelizer_version": "2.0.0"
+    ]
 }

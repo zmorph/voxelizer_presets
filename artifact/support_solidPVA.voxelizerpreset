@@ -6,14 +6,19 @@
             "preset_type": "support",
             "settings": [
                 {
+                    "name": "branch_angle",
+                    "type": "double",
+                    "value": 30.0
+                },
+                {
                     "name": "support_filament_amount_percentage",
                     "type": "double",
                     "value": 80.0
                 },
                 {
-                    "name": "branch_angle",
+                    "name": "support_infill_angle",
                     "type": "double",
-                    "value": 30.0
+                    "value": 90.0
                 },
                 {
                     "name": "support_minimum_length",
@@ -31,17 +36,11 @@
                     "value": 2.0
                 },
                 {
-                    "name": "support_infill_angle",
-                    "type": "double",
-                    "value": 90.0
-                },
-                {
                     "name": "support_type",
                     "type": "string",
                     "value": "outline & infill"
                 }
             ]
         }
-    ],
-    "voxelizer_version": "v1.5.11-35-ga58649"
+    ]
 }

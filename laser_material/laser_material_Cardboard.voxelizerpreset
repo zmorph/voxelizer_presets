@@ -6,17 +6,16 @@
             "preset_type": "laser_material",
             "settings": [
                 {
-                    "name": "laser work speed",
+                    "name": "laser cooling time",
                     "type": "double",
                     "value": 10.0
                 },
                 {
-                    "name": "laser cooling time",
+                    "name": "laser work speed",
                     "type": "double",
                     "value": 10.0
                 }
             ]
         }
-    ],
-    "voxelizer_version": "v1.5.6-49-g08eaed"
+    ]
 }

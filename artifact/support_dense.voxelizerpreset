@@ -3,17 +3,17 @@
         {
             "is_protected": true,
             "preset_name": "dense",
-            "preset_type": "support",            
+            "preset_type": "support",
             "settings": [
-                {
-                    "name": "support_filament_amount_percentage",
-                    "type": "double",
-                    "value": 80.0
-                },
                 {
                     "name": "support_connection_threshold",
                     "type": "double",
                     "value": 0.4
+                },
+                {
+                    "name": "support_filament_amount_percentage",
+                    "type": "double",
+                    "value": 80.0
                 },
                 {
                     "name": "support_minimum_length",
@@ -37,6 +37,5 @@
                 }
             ]
         }
-    ],
-    "voxelizer_version": "v1.5.1"
+    ]
 }

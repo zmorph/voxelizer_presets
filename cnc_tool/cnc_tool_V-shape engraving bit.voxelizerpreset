@@ -11,9 +11,9 @@
                     "value": 2.0
                 },
                 {
-                    "name": "cnc_tool_diameter",
+                    "name": "cnc_step_over",
                     "type": "double",
-                    "value": 0.1
+                    "value": 1.0
                 },
                 {
                     "name": "cnc_tool_body_length",
@@ -21,9 +21,9 @@
                     "value": 15.0
                 },
                 {
-                    "name": "cnc_step_over",
+                    "name": "cnc_tool_diameter",
                     "type": "double",
-                    "value": 1.0
+                    "value": 0.1
                 },
                 {
                     "name": "cnc_flute_numbers",
@@ -37,6 +37,5 @@
                 }
             ]
         }
-    ],
-    "voxelizer_version": "v1.5.6-49-g08eaed"
+    ]
 }

@@ -11,17 +11,16 @@
                     "value": 2.0
                 },
                 {
-                    "name": "max_cut_amount",
-                    "type": "double",
-                    "value": 1.5
-                },
-                {
                     "name": "lead_speed",
                     "type": "double",
                     "value": 0.5
+                },
+                {
+                    "name": "max_cut_amount",
+                    "type": "double",
+                    "value": 1.5
                 }
             ]
         }
-    ],
-    "voxelizer_version": "v1.5.6-49-g08eaed"
+    ]
 }

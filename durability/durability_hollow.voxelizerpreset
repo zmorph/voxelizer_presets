@@ -3,20 +3,10 @@
         {
             "is_protected": true,
             "preset_name": "hollow",
-            "preset_type": "durability",            
+            "preset_type": "durability",
             "settings": [
                 {
                     "name": "border_inset",
-                    "type": "double",
-                    "value": 0.0
-                },
-                {
-                    "name": "infill_min_percentage",
-                    "type": "double",
-                    "value": 0.0
-                },
-                {
-                    "name": "infill_max_percentage",
                     "type": "double",
                     "value": 0.0
                 },
@@ -26,14 +16,19 @@
                     "value": 0.0
                 },
                 {
+                    "name": "infill_max_percentage",
+                    "type": "double",
+                    "value": 0.0
+                },
+                {
+                    "name": "infill_min_percentage",
+                    "type": "double",
+                    "value": 0.0
+                },
+                {
                     "name": "infill_offset",
                     "type": "double",
                     "value": -0.1
-                },
-                {
-                    "name": "solid_depth_bottom",
-                    "type": "double",
-                    "value": 1.0
                 },
                 {
                     "name": "minimum_outline_depth",
@@ -41,14 +36,14 @@
                     "value": 0.5
                 },
                 {
-                    "name": "solid_depth_top",
+                    "name": "solid_depth_bottom",
                     "type": "double",
                     "value": 1.0
                 },
                 {
-                    "name": "solid_bottom_layers",
-                    "type": "int",
-                    "value": 3
+                    "name": "solid_depth_top",
+                    "type": "double",
+                    "value": 1.0
                 },
                 {
                     "name": "outline_count",
@@ -56,22 +51,26 @@
                     "value": 2
                 },
                 {
+                    "name": "solid_bottom_layers",
+                    "type": "int",
+                    "value": 3
+                },
+                {
                     "name": "extrude_odd_outlines",
                     "type": "bool",
                     "value": false
                 },
                 {
-                    "name": "infill_type",
-                    "type": "string",
-                    "value": "rectilinear"
-                },
-                {
                     "name": "extrusion_order",
                     "type": "string",
                     "value": "inside to outside"
+                },
+                {
+                    "name": "infill_type",
+                    "type": "string",
+                    "value": "rectilinear"
                 }
             ]
         }
-    ],
-    "voxelizer_version": "2.0.0"
+    ]
 }
