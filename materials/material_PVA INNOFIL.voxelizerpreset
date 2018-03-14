@@ -84,6 +84,11 @@
                     "value": 100.0
                 },
                 {
+                    "name": "first_layer_filament_percentage",
+                    "type": "double",
+                    "value": 110.0
+                },
+                {
                     "name": "first_layer_height",
                     "type": "double",
                     "value": 0.25
