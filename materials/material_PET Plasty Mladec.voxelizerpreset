@@ -2,7 +2,7 @@
     "presets": [
         {
             "is_protected": true,
-            "preset_name": "PLA ecooper",
+            "preset_name": "PET Plasty Mladec",
             "preset_type": "material",
             "settings": [
                 {
@@ -28,24 +28,17 @@
                 {
                     "name": "extruder_temperature",
                     "type": "double",
-                    "value": 210.0
+                    "value": 245.0
                 },
                 {
                     "name": "extrusion_multiplier",
-                    "overrides": [
-                        {
-                            "printer": "ZMorph",
-                            "toolhead": "Single 1.75",
-                            "value": 1.06
-                        }
-                    ],
                     "type": "double",
-                    "value": 1.0
+                    "value": 0.94
                 },
                 {
                     "name": "fan_speed_percentage",
                     "type": "double",
-                    "value": 100.0
+                    "value": 70.0
                 },
                 {
                     "name": "filament_diameter",
@@ -121,7 +114,7 @@
                 {
                     "name": "infill_print_speed_percentage",
                     "type": "double",
-                    "value": 100.0
+                    "value": 150.0
                 },
                 {
                     "name": "minimum_layer_time",
@@ -150,13 +143,20 @@
                 },
                 {
                     "name": "retraction_amount",
+                    "overrides": [
+                        {
+                            "printer": "ZMorph",
+                            "toolhead": "Dual Pro",
+                            "value": 5.0
+                        }
+                    ],
                     "type": "double",
-                    "value": 2.0
+                    "value": 3.0
                 },
                 {
                     "name": "retraction_height",
                     "type": "double",
-                    "value": 0.01
+                    "value": 0.1
                 },
                 {
                     "name": "retraction_speed_e",
@@ -203,7 +203,7 @@
                 {
                     "name": "fan_free_layers",
                     "type": "int",
-                    "value": 3
+                    "value": 1
                 },
                 {
                     "name": "enable_fan",
