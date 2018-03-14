@@ -25,7 +25,7 @@
                         }
                     ],
                     "type": "double",
-                    "value": 0.17
+                    "value": 0.2
                 },
                 {
                     "name": "default_print_speed",

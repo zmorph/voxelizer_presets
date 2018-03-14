@@ -23,7 +23,7 @@
                 {
                     "name": "bottom_layer_empty_space",
                     "type": "double",
-                    "value": 0.12
+                    "value": 0.15
                 },
                 {
                     "name": "default_print_speed",
