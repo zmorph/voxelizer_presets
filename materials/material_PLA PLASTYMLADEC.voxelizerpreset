@@ -1,8 +1,8 @@
 {
     "presets": [
         {
-            "is_protected": true,
-            "preset_name": "PLA PlastyMladec",
+            "is_protected": false,
+            "preset_name": "PLA PLASTYMLADEC",
             "preset_type": "material",
             "settings": [
                 {
@@ -45,7 +45,7 @@
                         {
                             "printer": "ZMorph",
                             "toolhead": "Dual Pro",
-                            "value": 205.0
+                            "value": 210.0
                         },
                         {
                             "printer": "ZMorph",
@@ -207,7 +207,7 @@
                         {
                             "printer": "ZMorph",
                             "toolhead": "Dual Pro",
-                            "value": 5.0
+                            "value": 5.5
                         },
                         {
                             "printer": "ZMorph",
@@ -216,7 +216,7 @@
                         }
                     ],
                     "type": "double",
-                    "value": 3.0
+                    "value": 3.5
                 },
                 {
                     "name": "retraction_height",
@@ -241,7 +241,7 @@
                         {
                             "printer": "ZMorph",
                             "toolhead": "Dual Pro",
-                            "value": 30.0
+                            "value": 50.0
                         },
                         {
                             "printer": "ZMorph",
@@ -250,7 +250,7 @@
                         }
                     ],
                     "type": "double",
-                    "value": 100.0
+                    "value": 120.0
                 },
                 {
                     "name": "retraction_speed_z",
@@ -269,8 +269,20 @@
                 },
                 {
                     "name": "travel_speed",
+                    "overrides": [
+                        {
+                            "printer": "ZMorph",
+                            "toolhead": "Single 1.75",
+                            "value": 120.0
+                        },
+                        {
+                            "printer": "ZMorph",
+                            "toolhead": "Dual Pro",
+                            "value": 150.0
+                        }
+                    ],
                     "type": "double",
-                    "value": 90.0
+                    "value": 120.0
                 },
                 {
                     "name": "wipe_distance",
@@ -285,7 +297,7 @@
                 {
                     "name": "fan_free_layers",
                     "type": "int",
-                    "value": 3
+                    "value": 1
                 },
                 {
                     "name": "enable_fan",
@@ -315,7 +327,7 @@
                 {
                     "name": "retraction_additional_action",
                     "type": "bool",
-                    "value": false
+                    "value": true
                 },
                 {
                     "name": "use_travel_deceleration",
