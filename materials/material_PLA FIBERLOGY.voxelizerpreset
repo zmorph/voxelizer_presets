@@ -26,7 +26,7 @@
                         {
                             "printer": "ZMorph",
                             "toolhead": "Dual Pro",
-                            "value": 0.0
+                            "value": 0.2
                         }
                     ],
                     "type": "double",
