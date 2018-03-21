@@ -1,8 +1,8 @@
 {
     "presets": [
         {
-            "is_protected": true,
-            "preset_name": "ABS  PlastyMladec",
+            "is_protected": false,
+            "preset_name": "ABS  PLASTYMLADEC",
             "preset_type": "material",
             "settings": [
                 {
@@ -46,6 +46,11 @@
                             "printer": "ZMorph",
                             "toolhead": "Single 3.00",
                             "value": 240.0
+                        },
+                        {
+                            "printer": "ZMorph",
+                            "toolhead": "Dual Pro",
+                            "value": 240.0
                         }
                     ],
                     "type": "double",
@@ -61,7 +66,7 @@
                         }
                     ],
                     "type": "double",
-                    "value": 1.0
+                    "value": 1.1
                 },
                 {
                     "name": "fan_speed_percentage",
