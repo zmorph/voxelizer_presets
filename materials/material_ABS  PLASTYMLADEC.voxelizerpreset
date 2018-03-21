@@ -66,7 +66,7 @@
                         }
                     ],
                     "type": "double",
-                    "value": 1.1
+                    "value": 1.0
                 },
                 {
                     "name": "fan_speed_percentage",
