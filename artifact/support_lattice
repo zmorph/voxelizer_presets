@@ -1,0 +1,106 @@
+{
+    "presets": [
+        {
+            "is_protected": true,
+            "preset_name": "lattice",
+            "preset_type": "support",
+            "settings": [
+                {
+                    "name": "base_node_max_size",
+                    "type": "double",
+                    "value": 5.0
+                },
+                {
+                    "name": "base_node_min_size",
+                    "type": "double",
+                    "value": 2.0
+                },
+                {
+                    "name": "base_node_size",
+                    "type": "double",
+                    "value": 2.0
+                },
+                {
+                    "name": "branch_angle",
+                    "type": "double",
+                    "value": 30.0
+                },
+                {
+                    "name": "grid_xy_step",
+                    "type": "double",
+                    "value": 2.0
+                },
+                {
+                    "name": "mesh_node_size",
+                    "type": "double",
+                    "value": 1.4
+                },
+                {
+                    "name": "middle_node_size",
+                    "type": "double",
+                    "value": 1.0
+                },
+                {
+                    "name": "min_touchpoints_dist",
+                    "type": "double",
+                    "value": 5.0
+                },
+                {
+                    "name": "support_connection_threshold",
+                    "type": "double",
+                    "value": 1.0
+                },
+                {
+                    "name": "support_density",
+                    "type": "double",
+                    "value": 0.2
+                },
+                {
+                    "name": "support_filament_amount_percentage",
+                    "type": "double",
+                    "value": 100.0
+                },
+                {
+                    "name": "support_infill_angle",
+                    "type": "double",
+                    "value": 90.0
+                },
+                {
+                    "name": "support_minimum_length",
+                    "type": "double",
+                    "value": 1.0
+                },
+                {
+                    "name": "support_offset",
+                    "type": "double",
+                    "value": 0.4
+                },
+                {
+                    "name": "support_spacing",
+                    "type": "double",
+                    "value": 1.0
+                },
+                {
+                    "name": "thickness_multiplier",
+                    "type": "double",
+                    "value": 1.0
+                },
+                {
+                    "name": "top_node_size",
+                    "type": "double",
+                    "value": 0.7
+                },
+                {
+                    "name": "avoid_mesh",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "name": "support_type",
+                    "type": "string",
+                    "value": "lattice FDM"
+                }
+            ]
+        }
+    ]
+}
