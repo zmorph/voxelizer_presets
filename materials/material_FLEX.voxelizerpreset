@@ -2,7 +2,7 @@
     "presets": [
         {
             "is_protected": true,
-            "preset_name": "FLEX",
+            "preset_name": "FiberFlex",
             "preset_type": "material",
             "settings": [
                 {
