@@ -290,6 +290,11 @@
                     "value": true
                 },
                 {
+                    "name": "first_layer_transition",
+                    "type": "bool",
+                    "value": false
+                },
+                {
                     "name": "move_inside_object",
                     "type": "bool",
                     "value": false
