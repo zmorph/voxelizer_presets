@@ -2,13 +2,13 @@
     "presets": [
         {
             "is_protected": true,
-            "preset_name": "PET Plasty Mladec",
+            "preset_name": "TPE Plasty Mladec",
             "preset_type": "material",
             "settings": [
                 {
                     "name": "adhesion_ratio_max",
                     "type": "double",
-                    "value": 2.0
+                    "value": 2.25
                 },
                 {
                     "name": "artifact_print_speed_percentage",
@@ -18,27 +18,27 @@
                 {
                     "name": "bottom_layer_empty_space",
                     "type": "double",
-                    "value": 0.125
+                    "value": 0.2
                 },
                 {
                     "name": "default_print_speed",
                     "type": "double",
-                    "value": 24.0
+                    "value": 20.0
                 },
                 {
                     "name": "extruder_temperature",
                     "type": "double",
-                    "value": 235.0
+                    "value": 220.0
                 },
                 {
                     "name": "extrusion_multiplier",
                     "type": "double",
-                    "value": 0.94
+                    "value": 1.0
                 },
                 {
                     "name": "fan_speed_percentage",
                     "type": "double",
-                    "value": 70.0
+                    "value": 80.0
                 },
                 {
                     "name": "filament_diameter",
@@ -79,7 +79,7 @@
                 {
                     "name": "first_layer_filament_percentage",
                     "type": "double",
-                    "value": 105.0
+                    "value": 100.0
                 },
                 {
                     "name": "first_layer_height",
@@ -89,7 +89,7 @@
                 {
                     "name": "first_layer_print_speed_percentage",
                     "type": "double",
-                    "value": 40.0
+                    "value": 50.0
                 },
                 {
                     "name": "first_layer_width",
@@ -114,12 +114,12 @@
                 {
                     "name": "hotbed_temperature",
                     "type": "double",
-                    "value": 60.0
+                    "value": 70.0
                 },
                 {
                     "name": "infill_print_speed_percentage",
                     "type": "double",
-                    "value": 150.0
+                    "value": 100.0
                 },
                 {
                     "name": "minimum_layer_time",
@@ -148,15 +148,8 @@
                 },
                 {
                     "name": "retraction_amount",
-                    "overrides": [
-                        {
-                            "printer": "ZMorph",
-                            "toolhead": "Dual Pro",
-                            "value": 5.0
-                        }
-                    ],
                     "type": "double",
-                    "value": 3.5
+                    "value": 3.0
                 },
                 {
                     "name": "retraction_height",
@@ -198,17 +191,17 @@
                 {
                     "name": "wipe_distance",
                     "type": "double",
-                    "value": 2.0
+                    "value": 0.01
                 },
                 {
                     "name": "wipe_retract_on_start",
                     "type": "double",
-                    "value": 0.0
+                    "value": 2.0
                 },
                 {
                     "name": "fan_free_layers",
                     "type": "int",
-                    "value": 1
+                    "value": 3
                 },
                 {
                     "name": "enable_fan",
@@ -223,7 +216,7 @@
                 {
                     "name": "first_layer_transition",
                     "type": "bool",
-                    "value": true
+                    "value": false
                 },
                 {
                     "name": "move_inside_object",
