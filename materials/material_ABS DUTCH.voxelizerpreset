@@ -1,9 +1,9 @@
 {
     "presets": [
         {
-            "group": "OTHER",
+            "group": "ABS",
             "is_protected": true,
-            "preset_name": "ASA-X Dutch",
+            "preset_name": "ABS Dutch",
             "preset_type": "material",
             "settings": [
                 {
@@ -293,7 +293,7 @@
                 {
                     "name": "first_layer_transition",
                     "type": "bool",
-                    "value": true
+                    "value": false
                 },
                 {
                     "name": "move_inside_object",

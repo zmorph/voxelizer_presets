@@ -1,6 +1,7 @@
 {
     "presets": [
         {
+            "group": "FLEX",
             "is_protected": true,
             "preset_name": "NinjaFlex",
             "preset_type": "material",
@@ -125,7 +126,7 @@
                 {
                     "name": "first_layer_print_speed_percentage",
                     "type": "double",
-                    "value": 40.0
+                    "value": 60.0
                 },
                 {
                     "name": "first_layer_width",

@@ -1,6 +1,7 @@
 {
     "presets": [
         {
+            "group": "PLA",
             "is_protected": true,
             "preset_name": "PLA Zmorph",
             "preset_type": "material",

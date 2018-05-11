@@ -1,6 +1,7 @@
 {
     "presets": [
         {
+            "group": "FLEX",
             "is_protected": true,
             "preset_name": "FiberFlex",
             "preset_type": "material",

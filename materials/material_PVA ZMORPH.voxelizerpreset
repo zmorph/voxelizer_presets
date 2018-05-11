@@ -1,8 +1,9 @@
 {
     "presets": [
         {
+            "group": "PVA",
             "is_protected": true,
-            "preset_name": "PVA Zmorph",
+            "preset_name": "PVA Dutch",
             "preset_type": "material",
             "settings": [
                 {

@@ -3,9 +3,6 @@
         "material_ABS ZMORPH",
         "material_PLA ZMORPH",
         "material_PVA ZMORPH",
-        "material_FLEX",
-        "material_HIPS",
-        "material_NYLON",
-        "material_PET"
+        "material_HIPS ZMORPH"
     ]
 }

@@ -3,13 +3,18 @@
         {
             "group": "OTHER",
             "is_protected": true,
-            "preset_name": "ASA-X Dutch",
+            "preset_name": "HIPS ZMorph",
             "preset_type": "material",
             "settings": [
                 {
                     "name": "adhesion_ratio_max",
                     "type": "double",
                     "value": 2.5
+                },
+                {
+                    "name": "adhesion_ratio_min",
+                    "type": "double",
+                    "value": 1.5
                 },
                 {
                     "name": "artifact_print_speed_percentage",
@@ -42,32 +47,23 @@
                 },
                 {
                     "name": "extruder_temperature",
-                    "overrides": [
-                        {
-                            "printer": "ZMorph",
-                            "toolhead": "Single 3.00",
-                            "value": 240.0
-                        }
-                    ],
                     "type": "double",
-                    "value": 235.0
+                    "value": 245.0
                 },
                 {
                     "name": "extrusion_multiplier",
-                    "overrides": [
-                        {
-                            "printer": "ZMorph",
-                            "toolhead": "Dual Pro",
-                            "value": 1.06
-                        }
-                    ],
                     "type": "double",
                     "value": 1.0
                 },
                 {
+                    "name": "fan_min_speed_percentage",
+                    "type": "double",
+                    "value": 20.0
+                },
+                {
                     "name": "fan_speed_percentage",
                     "type": "double",
-                    "value": 30.0
+                    "value": 50.0
                 },
                 {
                     "name": "filament_diameter",
@@ -83,20 +79,8 @@
                 },
                 {
                     "name": "filament_diameter_multiplier",
-                    "overrides": [
-                        {
-                            "printer": "ZMorph",
-                            "toolhead": "Single 1.75",
-                            "value": 1.0
-                        },
-                        {
-                            "printer": "ZMorph",
-                            "toolhead": "Dual Pro",
-                            "value": 0.97
-                        }
-                    ],
                     "type": "double",
-                    "value": 0.97
+                    "value": 1.0
                 },
                 {
                     "name": "filament_min_artifact_length",
@@ -136,6 +120,16 @@
                     ],
                     "type": "double",
                     "value": 0.35
+                },
+                {
+                    "name": "flow_max_multiplier",
+                    "type": "double",
+                    "value": 2.0
+                },
+                {
+                    "name": "flow_min_multiplier",
+                    "type": "double",
+                    "value": 0.5
                 },
                 {
                     "name": "gradient_min_artifact_length",
@@ -281,6 +275,11 @@
                     "value": 3
                 },
                 {
+                    "name": "additional action",
+                    "type": "bool",
+                    "value": false
+                },
+                {
                     "name": "enable_fan",
                     "type": "bool",
                     "value": true
@@ -289,6 +288,11 @@
                     "name": "enable_retraction",
                     "type": "bool",
                     "value": true
+                },
+                {
+                    "name": "fan_dynamic_cooling",
+                    "type": "bool",
+                    "value": false
                 },
                 {
                     "name": "first_layer_transition",

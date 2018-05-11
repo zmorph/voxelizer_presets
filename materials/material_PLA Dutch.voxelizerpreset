@@ -1,15 +1,15 @@
 {
     "presets": [
         {
-            "group": "OTHER",
+            "group": "PLA",
             "is_protected": true,
-            "preset_name": "ASA-X Dutch",
+            "preset_name": "PLA Dutch",
             "preset_type": "material",
             "settings": [
                 {
                     "name": "adhesion_ratio_max",
                     "type": "double",
-                    "value": 2.5
+                    "value": 2.0
                 },
                 {
                     "name": "artifact_print_speed_percentage",
@@ -22,11 +22,11 @@
                         {
                             "printer": "ZMorph",
                             "toolhead": "Dual Pro",
-                            "value": 0.125
+                            "value": 0.175
                         }
                     ],
                     "type": "double",
-                    "value": 0.125
+                    "value": 0.2
                 },
                 {
                     "name": "default_print_speed",
@@ -34,40 +34,38 @@
                         {
                             "printer": "ZMorph",
                             "toolhead": "Dual Pro",
-                            "value": 20.0
+                            "value": 25.0
                         }
                     ],
                     "type": "double",
-                    "value": 24.0
+                    "value": 30.0
                 },
                 {
                     "name": "extruder_temperature",
                     "overrides": [
                         {
                             "printer": "ZMorph",
+                            "toolhead": "Dual Pro",
+                            "value": 205.0
+                        },
+                        {
+                            "printer": "ZMorph",
                             "toolhead": "Single 3.00",
-                            "value": 240.0
+                            "value": 205.0
                         }
                     ],
                     "type": "double",
-                    "value": 235.0
+                    "value": 200.0
                 },
                 {
                     "name": "extrusion_multiplier",
-                    "overrides": [
-                        {
-                            "printer": "ZMorph",
-                            "toolhead": "Dual Pro",
-                            "value": 1.06
-                        }
-                    ],
                     "type": "double",
                     "value": 1.0
                 },
                 {
                     "name": "fan_speed_percentage",
                     "type": "double",
-                    "value": 30.0
+                    "value": 100.0
                 },
                 {
                     "name": "filament_diameter",
@@ -86,17 +84,22 @@
                     "overrides": [
                         {
                             "printer": "ZMorph",
+                            "toolhead": "Single 3.00",
+                            "value": 0.95
+                        },
+                        {
+                            "printer": "ZMorph",
                             "toolhead": "Single 1.75",
                             "value": 1.0
                         },
                         {
                             "printer": "ZMorph",
                             "toolhead": "Dual Pro",
-                            "value": 0.97
+                            "value": 1.0
                         }
                     ],
                     "type": "double",
-                    "value": 0.97
+                    "value": 1.0
                 },
                 {
                     "name": "filament_min_artifact_length",
@@ -145,21 +148,26 @@
                 {
                     "name": "height_max_multiplier",
                     "type": "double",
-                    "value": 0.75
+                    "value": 0.85
                 },
                 {
                     "name": "height_min_multiplier",
                     "type": "double",
-                    "value": 0.4
+                    "value": 0.3
                 },
                 {
                     "name": "hotbed_temperature",
                     "type": "double",
-                    "value": 85.0
+                    "value": 60.0
                 },
                 {
                     "name": "infill_print_speed_percentage",
                     "overrides": [
+                        {
+                            "printer": "ZMorph",
+                            "toolhead": "Single 3.00",
+                            "value": 120.0
+                        },
                         {
                             "printer": "ZMorph",
                             "toolhead": "Dual Pro",
@@ -205,7 +213,7 @@
                         {
                             "printer": "ZMorph",
                             "toolhead": "Single 3.00",
-                            "value": 5.0
+                            "value": 6.0
                         }
                     ],
                     "type": "double",
