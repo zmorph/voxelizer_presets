@@ -252,7 +252,7 @@
                 {
                     "name": "printing_hint",
                     "type": "string",
-                    "value": "Attach cooling fan(s)\nNo covers\nApply adhesive agent"
+                    "value": "Attach cooling fan(s)\nNo covers\nApply adhesive agent\nDo not overheat the material"
                 }
             ]
         }
