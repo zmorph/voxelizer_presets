@@ -1,6 +1,7 @@
 {
     "presets": [
         {
+            "group": "FLEX",
             "is_protected": true,
             "preset_name": "TPE Plasty Mladec",
             "preset_type": "material",
@@ -247,6 +248,11 @@
                     "name": "wipe_nozzle",
                     "type": "bool",
                     "value": true
+                },
+                {
+                    "name": "printing_hint",
+                    "type": "string",
+                    "value": "Attach cooling fan(s)\nNo covers\nUse tape on the table or increase bed temperature\nLoad material slowly"
                 }
             ]
         }
