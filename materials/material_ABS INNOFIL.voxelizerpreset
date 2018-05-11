@@ -322,11 +322,6 @@
                     "name": "printing_hint",
                     "type": "string",
                     "value": "Use covers\nApply adhesive agent"
-                },
-                {
-                    "name": "start_position",
-                    "type": "string",
-                    "value": "complex"
                 }
             ]
         }
