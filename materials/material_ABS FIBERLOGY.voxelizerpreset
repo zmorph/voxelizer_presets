@@ -347,6 +347,11 @@
                     "name": "wipe_nozzle",
                     "type": "bool",
                     "value": true
+                },
+                {
+                    "name": "printing_hint",
+                    "type": "string",
+                    "value": "Use covers\nApply adhesive agent"
                 }
             ]
         }

@@ -309,6 +309,11 @@
                     "value": false
                 },
                 {
+                    "name": "printing_hint",
+                    "type": "string",
+                    "value": "Attach cooling fan(s)\nNo covers\nApply adhesive agent\nDo not overheat the material\nDo not expose PVA filament to humidity"
+                },
+                {
                     "name": "start_position",
                     "type": "string",
                     "value": "complex"

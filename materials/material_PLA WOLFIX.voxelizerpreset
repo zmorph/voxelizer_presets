@@ -340,6 +340,11 @@
                     "name": "wipe_nozzle",
                     "type": "bool",
                     "value": true
+                },
+                {
+                    "name": "printing_hint",
+                    "type": "string",
+                    "value": "Attach cooling fan(s)\nNo covers\nApply adhesive agent"
                 }
             ]
         }

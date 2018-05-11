@@ -1,9 +1,9 @@
 {
     "presets": [
         {
-            "group": "PLA",
+            "group": "OTHER",
             "is_protected": true,
-            "preset_name": "PLA Ink3D",
+            "preset_name": "XT ColorFabb",
             "preset_type": "material",
             "settings": [
                 {
@@ -55,7 +55,7 @@
                         }
                     ],
                     "type": "double",
-                    "value": 210.0
+                    "value": 250.0
                 },
                 {
                     "name": "extrusion_multiplier",
@@ -65,7 +65,7 @@
                 {
                     "name": "fan_speed_percentage",
                     "type": "double",
-                    "value": 100.0
+                    "value": 50.0
                 },
                 {
                     "name": "filament_diameter",
@@ -158,7 +158,7 @@
                 {
                     "name": "hotbed_temperature",
                     "type": "double",
-                    "value": 60.0
+                    "value": 80.0
                 },
                 {
                     "name": "infill_print_speed_percentage",
@@ -217,7 +217,7 @@
                         }
                     ],
                     "type": "double",
-                    "value": 3.0
+                    "value": 3.5
                 },
                 {
                     "name": "retraction_height",
@@ -336,7 +336,7 @@
                 {
                     "name": "printing_hint",
                     "type": "string",
-                    "value": "Attach cooling fan(s)\nNo covers\nApply adhesive agent"
+                    "value": "Attach cooling fan(s)\nUse covers\nApply adhesive agent\nDo not overheat the material"
                 }
             ]
         }
