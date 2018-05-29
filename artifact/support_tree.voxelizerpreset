@@ -35,6 +35,16 @@
                     "type": "double",
                     "value": 1.0
                 },
+                                {
+                    "name": "avoid_mesh",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "name": "reinforce_weak_areas",
+                    "type": "bool",
+                    "value": true
+                },
                 {
                     "name": "support_type",
                     "type": "string",
