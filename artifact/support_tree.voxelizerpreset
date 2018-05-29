@@ -6,36 +6,21 @@
             "preset_type": "support",
             "settings": [
                 {
-                    "name": "branch_angle",
-                    "type": "double",
-                    "value": 30.0
-                },
-                {
-                    "name": "support_connection_threshold",
-                    "type": "double",
-                    "value": 1.0
-                },
-                {
                     "name": "support_filament_amount_percentage",
                     "type": "double",
-                    "value": 100.0
+                    "value": 80.0
                 },
                 {
-                    "name": "support_minimum_length",
+                    "name": "touchpoints_size",
                     "type": "double",
-                    "value": 1.0
+                    "value": 0.75
                 },
                 {
-                    "name": "support_offset",
+                    "name": "growth_factor",
                     "type": "double",
-                    "value": 0.4
+                    "value": 0.3
                 },
                 {
-                    "name": "support_spacing",
-                    "type": "double",
-                    "value": 1.0
-                },
-                                {
                     "name": "avoid_mesh",
                     "type": "bool",
                     "value": false
