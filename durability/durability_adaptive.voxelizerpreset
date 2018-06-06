@@ -18,7 +18,7 @@
                 {
                     "name": "infill_max_percentage",
                     "type": "double",
-                    "value": 90.0
+                    "value": 80.0
                 },
                 {
                     "name": "infill_min_percentage",
@@ -38,7 +38,7 @@
                 {
                     "name": "solid_depth_bottom",
                     "type": "double",
-                    "value": 1.0
+                    "value": 0.5
                 },
                 {
                     "name": "solid_depth_top",
@@ -53,7 +53,7 @@
                 {
                     "name": "width_height_ratio",
                     "type": "double",
-                    "value": 2.0
+                    "value": 5.0
                 },
                 {
                     "name": "outline_count",
@@ -84,6 +84,16 @@
                     "name": "extrusion_order",
                     "type": "string",
                     "value": "inside to outside"
+                },
+                {
+                    "name": "max_cell_size",
+                    "type": "double",
+                    "value": 48.0
+                },
+                {
+                    "name": "min_cell_size",
+                    "type": "double",
+                    "value": 1.5
                 },
                 {
                     "name": "infill_type",
