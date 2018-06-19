@@ -6,54 +6,19 @@
             "preset_type": "support",
             "settings": [
                 {
-                    "name": "base_node_max_size",
+                    "name": "base_points_size",
                     "type": "double",
-                    "value": 5.0
-                },
-                {
-                    "name": "base_node_min_size",
-                    "type": "double",
-                    "value": 2.0
-                },
-                {
-                    "name": "base_node_size",
-                    "type": "double",
-                    "value": 2.0
-                },
-                {
-                    "name": "branch_angle",
-                    "type": "double",
-                    "value": 30.0
+                    "value": 3.0
                 },
                 {
                     "name": "grid_xy_step",
                     "type": "double",
-                    "value": 2.0
-                },
-                {
-                    "name": "mesh_node_size",
-                    "type": "double",
-                    "value": 1.4
-                },
-                {
-                    "name": "middle_node_size",
-                    "type": "double",
-                    "value": 1.0
-                },
-                {
-                    "name": "min_touchpoints_dist",
-                    "type": "double",
                     "value": 5.0
                 },
                 {
-                    "name": "support_connection_threshold",
+                    "name": "structure_points_size",
                     "type": "double",
-                    "value": 1.0
-                },
-                {
-                    "name": "support_density",
-                    "type": "double",
-                    "value": 0.2
+                    "value": 1.5
                 },
                 {
                     "name": "support_filament_amount_percentage",
@@ -61,39 +26,14 @@
                     "value": 100.0
                 },
                 {
-                    "name": "support_infill_angle",
+                    "name": "touchpoints_size",
                     "type": "double",
-                    "value": 90.0
+                    "value": 0.75
                 },
                 {
-                    "name": "support_minimum_length",
-                    "type": "double",
-                    "value": 1.0
-                },
-                {
-                    "name": "support_offset",
-                    "type": "double",
-                    "value": 0.4
-                },
-                {
-                    "name": "support_spacing",
-                    "type": "double",
-                    "value": 1.0
-                },
-                {
-                    "name": "thickness_multiplier",
-                    "type": "double",
-                    "value": 1.0
-                },
-                {
-                    "name": "top_node_size",
-                    "type": "double",
-                    "value": 0.7
-                },
-                {
-                    "name": "avoid_mesh",
+                    "name": "reinforce_weak_areas",
                     "type": "bool",
-                    "value": false
+                    "value": true
                 },
                 {
                     "name": "support_type",
