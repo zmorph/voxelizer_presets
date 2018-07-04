@@ -38,7 +38,7 @@
                 {
                     "name": "support_type",
                     "type": "string",
-                    "value": "lattice"
+                    "value": "lattice FDM"
                 }
             ]
         }
