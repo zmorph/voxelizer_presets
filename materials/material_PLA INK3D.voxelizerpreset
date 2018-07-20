@@ -309,6 +309,13 @@
                 },
                 {
                     "name": "wipe_retract_on_start",
+                    "overrides": [
+                        {
+                            "printer": "ZMorph",
+                            "toolhead": "Single 1.75",
+                            "value": 1.0
+                        }
+                    ],
                     "type": "double",
                     "value": 0.0
                 },
@@ -349,6 +356,13 @@
                 },
                 {
                     "name": "retraction_additional_action",
+                    "overrides": [
+                        {
+                            "printer": "ZMorph",
+                            "toolhead": "Single 1.75",
+                            "value": true
+                        }
+                    ],
                     "type": "bool",
                     "value": false
                 },

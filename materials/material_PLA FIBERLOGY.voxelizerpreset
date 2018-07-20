@@ -302,6 +302,13 @@
                 },
                 {
                     "name": "wipe_retract_on_start",
+                    "overrides": [
+                        {
+                            "printer": "ZMorph",
+                            "toolhead": "Single 1.75",
+                            "value": 1.0
+                        }
+                    ],
                     "type": "double",
                     "value": 0.0
                 },
@@ -309,11 +316,6 @@
                     "name": "fan_free_layers",
                     "type": "int",
                     "value": 3
-                },
-                {
-                    "name": "additional action",
-                    "type": "bool",
-                    "value": false
                 },
                 {
                     "name": "enable_fan",
@@ -352,6 +354,13 @@
                 },
                 {
                     "name": "retraction_additional_action",
+                    "overrides": [
+                        {
+                            "printer": "ZMorph",
+                            "toolhead": "Single 1.75",
+                            "value": true
+                        }
+                    ],
                     "type": "bool",
                     "value": false
                 },
