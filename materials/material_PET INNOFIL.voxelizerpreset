@@ -113,6 +113,11 @@
                     "value": 60.0
                 },
                 {
+                    "name": "infill_filament_amount_percentage",
+                    "type": "double",
+                    "value": 100.0
+                },
+                {
                     "name": "infill_print_speed_percentage",
                     "type": "double",
                     "value": 150.0
