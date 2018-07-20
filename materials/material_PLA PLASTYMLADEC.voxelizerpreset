@@ -333,6 +333,13 @@
                 },
                 {
                     "name": "fan_free_layers",
+                    "overrides": [
+                        {
+                            "printer": "ZMorph",
+                            "toolhead": "Single 1.75",
+                            "value": 1
+                        }
+                    ],
                     "type": "int",
                     "value": 1
                 },
