@@ -162,6 +162,13 @@
                 },
                 {
                     "name": "infill_filament_amount_percentage",
+                    "overrides": [
+                        {
+                            "printer": "ZMorph",
+                            "toolhead": "Single 1.75",
+                            "value": 90.0
+                        }
+                    ],
                     "type": "double",
                     "value": 100.0
                 },
@@ -184,6 +191,13 @@
                 },
                 {
                     "name": "minimum_layer_time",
+                    "overrides": [
+                        {
+                            "printer": "ZMorph",
+                            "toolhead": "Single 1.75",
+                            "value": 0.0
+                        }
+                    ],
                     "type": "double",
                     "value": 10.0
                 },
@@ -219,6 +233,11 @@
                             "printer": "ZMorph",
                             "toolhead": "Single 3.00",
                             "value": 6.0
+                        },
+                        {
+                            "printer": "ZMorph",
+                            "toolhead": "Single 1.75",
+                            "value": 2.0
                         }
                     ],
                     "type": "double",
@@ -235,6 +254,11 @@
                         {
                             "printer": "ZMorph",
                             "toolhead": "Single 3.00",
+                            "value": 0.05
+                        },
+                        {
+                            "printer": "ZMorph",
+                            "toolhead": "Single 1.75",
                             "value": 0.05
                         }
                     ],

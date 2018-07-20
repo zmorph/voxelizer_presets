@@ -114,6 +114,13 @@
                 },
                 {
                     "name": "infill_filament_amount_percentage",
+                    "overrides": [
+                        {
+                            "printer": "ZMorph",
+                            "toolhead": "Single 1.75",
+                            "value": 90.0
+                        }
+                    ],
                     "type": "double",
                     "value": 100.0
                 },
@@ -124,6 +131,13 @@
                 },
                 {
                     "name": "minimum_layer_time",
+                    "overrides": [
+                        {
+                            "printer": "ZMorph",
+                            "toolhead": "Single 1.75",
+                            "value": 0.0
+                        }
+                    ],
                     "type": "double",
                     "value": 10.0
                 },
@@ -154,6 +168,11 @@
                             "printer": "ZMorph",
                             "toolhead": "Dual Pro",
                             "value": 5.0
+                        },
+                        {
+                            "printer": "ZMorph",
+                            "toolhead": "Single 1.75",
+                            "value": 2.0
                         }
                     ],
                     "type": "double",
@@ -161,6 +180,13 @@
                 },
                 {
                     "name": "retraction_height",
+                    "overrides": [
+                        {
+                            "printer": "ZMorph",
+                            "toolhead": "Single 1.75",
+                            "value": 0.05
+                        }
+                    ],
                     "type": "double",
                     "value": 0.1
                 },
