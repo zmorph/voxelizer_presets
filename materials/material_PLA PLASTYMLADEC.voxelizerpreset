@@ -251,7 +251,7 @@
                         }
                     ],
                     "type": "double",
-                    "value": 120.0
+                    "value": 100.0
                 },
                 {
                     "name": "retraction_speed_z",
