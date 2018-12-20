@@ -31,7 +31,7 @@
                 {
                     "name": "default_print_speed",
                     "type": "double",
-                    "value": 30.0
+                    "value": 20.0
                 },
                 {
                     "name": "extruder_temperature",
@@ -75,7 +75,7 @@
                         }
                     ],
                     "type": "double",
-                    "value": 100.0
+                    "value": 70.0
                 },
                 {
                     "name": "first_layer_filament_percentage",
