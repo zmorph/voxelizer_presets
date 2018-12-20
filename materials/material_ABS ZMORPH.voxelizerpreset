@@ -47,6 +47,11 @@
                             "printer": "ZMorph",
                             "toolhead": "Single 3.00",
                             "value": 240.0
+                        },
+                        {
+                            "printer": "ZMorph",
+                            "toolhead": "Dual Pro",
+                            "value": 240.0
                         }
                     ],
                     "type": "double",
@@ -67,7 +72,7 @@
                 {
                     "name": "fan_speed_percentage",
                     "type": "double",
-                    "value": 30.0
+                    "value": 40.0
                 },
                 {
                     "name": "filament_diameter",
@@ -172,7 +177,7 @@
                 {
                     "name": "minimum_layer_time",
                     "type": "double",
-                    "value": 10.0
+                    "value": 0
                 },
                 {
                     "name": "power_raft_second_layer_angle_offset",
@@ -253,7 +258,7 @@
                 {
                     "name": "small_perimeter_speed_percentage",
                     "type": "double",
-                    "value": 30.0
+                    "value": 70.0
                 },
                 {
                     "name": "small_perimeter_threshold",
@@ -278,7 +283,7 @@
                 {
                     "name": "fan_free_layers",
                     "type": "int",
-                    "value": 3
+                    "value": 1
                 },
                 {
                     "name": "enable_fan",
@@ -313,7 +318,7 @@
                 {
                     "name": "retraction_additional_action",
                     "type": "bool",
-                    "value": false
+                    "value": true
                 },
                 {
                     "name": "use_travel_deceleration",
@@ -330,7 +335,7 @@
                     "type": "string",
                     "value": "Use covers\nApply adhesive agent"
                 }
-            ]
+            ]            
         }
     ]
 }

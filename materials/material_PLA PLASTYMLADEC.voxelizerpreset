@@ -73,7 +73,7 @@
                         {
                             "printer": "ZMorph",
                             "toolhead": "Single 3.00",
-                            "value": 2.85
+                            "value": 2.9
                         }
                     ],
                     "type": "double",
@@ -180,7 +180,7 @@
                 {
                     "name": "minimum_layer_time",
                     "type": "double",
-                    "value": 10.0
+                    "value": 0
                 },
                 {
                     "name": "power_raft_second_layer_angle_offset",
@@ -208,7 +208,7 @@
                         {
                             "printer": "ZMorph",
                             "toolhead": "Dual Pro",
-                            "value": 5.5
+                            "value": 5.0
                         },
                         {
                             "printer": "ZMorph",
@@ -217,7 +217,7 @@
                         }
                     ],
                     "type": "double",
-                    "value": 3.5
+                    "value": 2.0
                 },
                 {
                     "name": "retraction_height",
@@ -225,7 +225,7 @@
                         {
                             "printer": "ZMorph",
                             "toolhead": "Dual Pro",
-                            "value": 0.15
+                            "value": 0.05
                         },
                         {
                             "printer": "ZMorph",
@@ -242,7 +242,7 @@
                         {
                             "printer": "ZMorph",
                             "toolhead": "Dual Pro",
-                            "value": 50.0
+                            "value": 30.0
                         },
                         {
                             "printer": "ZMorph",
@@ -261,7 +261,7 @@
                 {
                     "name": "small_perimeter_speed_percentage",
                     "type": "double",
-                    "value": 30.0
+                    "value": 70.0
                 },
                 {
                     "name": "small_perimeter_threshold",
@@ -274,7 +274,7 @@
                         {
                             "printer": "ZMorph",
                             "toolhead": "Single 1.75",
-                            "value": 120.0
+                            "value": 90.0
                         },
                         {
                             "printer": "ZMorph",
@@ -293,7 +293,7 @@
                 {
                     "name": "wipe_retract_on_start",
                     "type": "double",
-                    "value": 0.0
+                    "value": 1.0
                 },
                 {
                     "name": "fan_free_layers",

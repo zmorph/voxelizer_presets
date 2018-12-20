@@ -125,7 +125,7 @@
                 {
                     "name": "minimum_layer_time",
                     "type": "double",
-                    "value": 10.0
+                    "value": 0
                 },
                 {
                     "name": "power_raft_second_layer_angle_offset",
@@ -162,7 +162,7 @@
                 {
                     "name": "retraction_height",
                     "type": "double",
-                    "value": 0.1
+                    "value": 0.05
                 },
                 {
                     "name": "retraction_speed_e",
@@ -184,7 +184,7 @@
                 {
                     "name": "small_perimeter_speed_percentage",
                     "type": "double",
-                    "value": 30.0
+                    "value": 70.0
                 },
                 {
                     "name": "small_perimeter_threshold",
@@ -204,12 +204,12 @@
                 {
                     "name": "wipe_retract_on_start",
                     "type": "double",
-                    "value": 0.0
+                    "value": 1.0
                 },
                 {
                     "name": "fan_free_layers",
                     "type": "int",
-                    "value": 3
+                    "value": 1
                 },
                 {
                     "name": "enable_fan",
@@ -244,7 +244,7 @@
                 {
                     "name": "retraction_additional_action",
                     "type": "bool",
-                    "value": false
+                    "value": true
                 },
                 {
                     "name": "use_travel_deceleration",

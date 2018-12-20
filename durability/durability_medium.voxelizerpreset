@@ -6,6 +6,21 @@
             "preset_type": "durability",
             "settings": [
                 {
+                     "name": "fill_gaps",
+                     "type": "bool",
+                     "value": true
+                },
+                {
+                     "name": "sort_and_merge",
+                     "type": "bool",
+                     "value": false
+                },
+                {
+                     "name": "force_dense_order",
+                     "type": "bool",
+                     "value": true
+                },                
+                {
                     "name": "border_inset",
                     "type": "double",
                     "value": 0.0
@@ -28,7 +43,7 @@
                 {
                     "name": "infill_offset",
                     "type": "double",
-                    "value": -0.15
+                    "value": -0.1
                 },
                 {
                     "name": "minimum_outline_depth",
@@ -38,12 +53,12 @@
                 {
                     "name": "solid_depth_bottom",
                     "type": "double",
-                    "value": 1.0
+                    "value": 0.75
                 },
                 {
                     "name": "solid_depth_top",
                     "type": "double",
-                    "value": 1.0
+                    "value": 0.75
                 },
                 {
                     "name": "outline_count",

@@ -152,7 +152,7 @@
                 {
                     "name": "minimum_layer_time",
                     "type": "double",
-                    "value": 10.0
+                    "value": 0
                 },
                 {
                     "name": "power_raft_second_layer_angle_offset",
@@ -204,7 +204,7 @@
                 {
                     "name": "small_perimeter_speed_percentage",
                     "type": "double",
-                    "value": 30.0
+                    "value": 70.0
                 },
                 {
                     "name": "small_perimeter_threshold",

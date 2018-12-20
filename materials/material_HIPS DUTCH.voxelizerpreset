@@ -166,7 +166,7 @@
                 {
                     "name": "minimum_layer_time",
                     "type": "double",
-                    "value": 10.0
+                    "value": 0
                 },
                 {
                     "name": "power_raft_second_layer_angle_offset",
@@ -247,7 +247,7 @@
                 {
                     "name": "small_perimeter_speed_percentage",
                     "type": "double",
-                    "value": 30.0
+                    "value": 70.0
                 },
                 {
                     "name": "small_perimeter_threshold",
@@ -272,7 +272,7 @@
                 {
                     "name": "fan_free_layers",
                     "type": "int",
-                    "value": 3
+                    "value": 1
                 },
                 {
                     "name": "additional action",
@@ -317,7 +317,7 @@
                 {
                     "name": "retraction_additional_action",
                     "type": "bool",
-                    "value": false
+                    "value": true
                 },
                 {
                     "name": "use_travel_deceleration",

@@ -6,6 +6,21 @@
             "preset_type": "durability",
             "settings": [
                 {
+                     "name": "fill_gaps",
+                     "type": "bool",
+                     "value": true
+                },
+                {
+                     "name": "sort_and_merge",
+                     "type": "bool",
+                     "value": false
+                },
+                {
+                     "name": "force_dense_order",
+                     "type": "bool",
+                     "value": true
+                },
+                {
                     "name": "border_inset",
                     "type": "double",
                     "value": 0.0
@@ -43,7 +58,7 @@
                 {
                     "name": "solid_depth_top",
                     "type": "double",
-                    "value": 1.5
+                    "value": 1.0
                 },
                 {
                     "name": "solid_infill_angle",
