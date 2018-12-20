@@ -34,7 +34,7 @@
                 {
                     "name": "extrusion_multiplier",
                     "type": "double",
-                    "value": 0.94
+                    "value": 1.0
                 },
                 {
                     "name": "fan_speed_percentage",

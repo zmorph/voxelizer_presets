@@ -86,17 +86,7 @@
                     "value": 0
                 },
                 {
-                    "name": "fill_gaps",
-                    "type": "bool",
-                    "value": false
-                },
-                {
                     "name": "line_crossing",
-                    "type": "bool",
-                    "value": false
-                },
-                {
-                    "name": "sort_and_merge",
                     "type": "bool",
                     "value": false
                 },
