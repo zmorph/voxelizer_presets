@@ -214,6 +214,13 @@
                 },
                 {
                     "name": "retraction_height",
+                    "overrides": [
+                        {
+                            "printer": "ZMorph",
+                            "toolhead": "Dual Pro",
+                            "value": 0.15
+                        }
+                    ],                       
                     "type": "double",
                     "value": 0.05
                 },
