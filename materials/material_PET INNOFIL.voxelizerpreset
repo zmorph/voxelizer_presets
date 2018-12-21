@@ -149,6 +149,11 @@
                             "printer": "ZMorph",
                             "toolhead": "Dual Pro",
                             "value": 5.0
+                        },
+                        {
+                            "printer": "ZMorph",
+                            "toolhead": "Single 3.00",
+                            "value": 6.0
                         }
                     ],
                     "type": "double",
@@ -166,6 +171,11 @@
                             "printer": "ZMorph",
                             "toolhead": "Dual Pro",
                             "value": 30.0
+                        },
+                        {
+                            "printer": "ZMorph",
+                            "toolhead": "Single 3.00",
+                            "value": 130.0
                         }
                     ],
                     "type": "double",

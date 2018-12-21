@@ -28,6 +28,13 @@
                 },
                 {
                     "name": "extruder_temperature",
+                    "overrides": [
+                        {
+                            "printer": "ZMorph",
+                            "toolhead": "Single 3.00",
+                            "value": 240.0
+                        }
+                    ],                    
                     "type": "double",
                     "value": 235.0
                 },
@@ -47,7 +54,7 @@
                         {
                             "printer": "ZMorph",
                             "toolhead": "Single 3.00",
-                            "value": 2.85
+                            "value": 2.9
                         }
                     ],
                     "type": "double",
@@ -114,6 +121,13 @@
                 },
                 {
                     "name": "hotbed_temperature",
+                    "overrides": [
+                        {
+                            "printer": "ZMorph",
+                            "toolhead": "Single 3.00",
+                            "value": 75.0
+                        }
+                    ],   
                     "type": "double",
                     "value": 60.0
                 },
@@ -154,6 +168,11 @@
                             "printer": "ZMorph",
                             "toolhead": "Dual Pro",
                             "value": 5.0
+                        },
+                        {
+                            "printer": "ZMorph",
+                            "toolhead": "Single 3.00",
+                            "value": 6.0
                         }
                     ],
                     "type": "double",
@@ -161,6 +180,13 @@
                 },
                 {
                     "name": "retraction_height",
+                    "overrides": [
+                        {
+                            "printer": "ZMorph",
+                            "toolhead": "Dual Pro",
+                            "value": 0.15
+                        }
+                    ],                    
                     "type": "double",
                     "value": 0.05
                 },
@@ -171,6 +197,11 @@
                             "printer": "ZMorph",
                             "toolhead": "Dual Pro",
                             "value": 30.0
+                        },
+                        {
+                            "printer": "ZMorph",
+                            "toolhead": "Single 3.00",
+                            "value": 130.0
                         }
                     ],
                     "type": "double",

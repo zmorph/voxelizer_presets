@@ -281,13 +281,6 @@
                 },
                 {
                     "name": "retraction_additional_action",
-                    "overrides": [
-                        {
-                            "printer": "ZMorph",
-                            "toolhead": "Dual Pro",
-                            "value": false
-                        }
-                    ],
                     "type": "bool",
                     "value": true
                 },
