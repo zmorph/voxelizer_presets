@@ -18,7 +18,7 @@
                 {
                      "name": "force_dense_order",
                      "type": "bool",
-                     "value": true
+                     "value": false
                 },                    
                 {
                     "name": "border_inset",
