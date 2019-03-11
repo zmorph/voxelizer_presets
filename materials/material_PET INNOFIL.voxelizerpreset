@@ -18,6 +18,13 @@
                 },
                 {
                     "name": "bottom_layer_empty_space",
+                    "overrides": [
+                        {
+                            "printer": "ZMorph",
+                            "toolhead": "Dual 1.75",
+                            "value": 0.1
+                        }
+                    ],
                     "type": "double",
                     "value": 0.2
                 },
@@ -40,6 +47,13 @@
                 },
                 {
                     "name": "extrusion_multiplier",
+                    "overrides": [
+                        {
+                            "printer": "ZMorph",
+                            "toolhead": "Dual 1.75",
+                            "value": 0.97
+                        }
+                    ],
                     "type": "double",
                     "value": 1.0
                 },
@@ -173,6 +187,11 @@
                             "printer": "ZMorph",
                             "toolhead": "Single 3.00",
                             "value": 6.0
+                        },
+                        {
+                            "printer": "ZMorph",
+                            "toolhead": "Dual 1.75",
+                            "value": 6.0
                         }
                     ],
                     "type": "double",
@@ -202,6 +221,11 @@
                             "printer": "ZMorph",
                             "toolhead": "Single 3.00",
                             "value": 130.0
+                        },
+                        {
+                            "printer": "ZMorph",
+                            "toolhead": "Dual 1.75",
+                            "value": 110.0
                         }
                     ],
                     "type": "double",
@@ -224,6 +248,13 @@
                 },
                 {
                     "name": "travel_speed",
+                    "overrides": [
+                        {
+                            "printer": "ZMorph",
+                            "toolhead": "Dual 1.75",
+                            "value": 120.0
+                        }
+                    ],
                     "type": "double",
                     "value": 90.0
                 },
