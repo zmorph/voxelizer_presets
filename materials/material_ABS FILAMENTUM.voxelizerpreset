@@ -59,6 +59,11 @@
                             "printer": "ZMorph",
                             "toolhead": "Dual Pro",
                             "value": 1.06
+                        },
+                        {
+                            "printer": "ZMorph",
+                            "toolhead": "Dual 1.75",
+                            "value": 0.97
                         }
                     ],
                     "type": "double",
@@ -66,6 +71,13 @@
                 },
                 {
                     "name": "fan_speed_percentage",
+                    "overrides": [
+                        {
+                            "printer": "ZMorph",
+                            "toolhead": "Dual 1.75",
+                            "value": 40.0
+                        }
+                    ],
                     "type": "double",
                     "value": 30.0
                 },
@@ -206,6 +218,11 @@
                             "printer": "ZMorph",
                             "toolhead": "Single 3.00",
                             "value": 5.0
+                        },
+                        {
+                            "printer": "ZMorph",
+                            "toolhead": "Dual 1.75",
+                            "value": 5.0
                         }
                     ],
                     "type": "double",
@@ -240,6 +257,11 @@
                             "printer": "ZMorph",
                             "toolhead": "Single 3.00",
                             "value": 130.0
+                        },
+                        {
+                            "printer": "ZMorph",
+                            "toolhead": "Dual 1.75",
+                            "value": 110.0
                         }
                     ],
                     "type": "double",
@@ -262,6 +284,13 @@
                 },
                 {
                     "name": "travel_speed",
+                    "overrides": [
+                        {
+                            "printer": "ZMorph",
+                            "toolhead": "Dual 1.75",
+                            "value": 120.0
+                        }
+                    ],
                     "type": "double",
                     "value": 90.0
                 },
