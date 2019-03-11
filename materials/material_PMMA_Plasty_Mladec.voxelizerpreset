@@ -1,25 +1,25 @@
 {
     "presets": [
         {
-            "group": "PET",
+            "group": "OTHER",
             "is_protected": true,
-            "preset_name": "PET Innofil",
+            "preset_name": "PMMA Plasty Mladec",
             "preset_type": "material",
             "settings": [
                 {
                     "name": "adhesion_ratio_max",
                     "type": "double",
-                    "value": 2.0
+                    "value": 2.25
                 },
                 {
                     "name": "artifact_print_speed_percentage",
                     "type": "double",
-                    "value": 100.0
+                    "value": 150.0
                 },
                 {
                     "name": "bottom_layer_empty_space",
                     "type": "double",
-                    "value": 0.2
+                    "value": 0.1
                 },
                 {
                     "name": "default_print_speed",
@@ -27,16 +27,9 @@
                     "value": 24.0
                 },
                 {
-                    "name": "extruder_temperature",
-                    "overrides": [
-                        {
-                            "printer": "ZMorph",
-                            "toolhead": "Single 3.00",
-                            "value": 240.0
-                        }
-                    ],
+                    "name": "extruder_temperature",               
                     "type": "double",
-                    "value": 235.0
+                    "value": 245.0
                 },
                 {
                     "name": "extrusion_multiplier",
@@ -46,7 +39,7 @@
                 {
                     "name": "fan_speed_percentage",
                     "type": "double",
-                    "value": 100.0
+                    "value": 20.0
                 },
                 {
                     "name": "filament_diameter",
@@ -54,7 +47,7 @@
                         {
                             "printer": "ZMorph",
                             "toolhead": "Single 3.00",
-                            "value": 2.85
+                            "value": 2.9
                         }
                     ],
                     "type": "double",
@@ -87,7 +80,7 @@
                 {
                     "name": "first_layer_filament_percentage",
                     "type": "double",
-                    "value": 110.0
+                    "value": 105.0
                 },
                 {
                     "name": "first_layer_height",
@@ -121,14 +114,14 @@
                 },
                 {
                     "name": "hotbed_temperature",
-                    "type": "double",
                     "overrides": [
                         {
                             "printer": "ZMorph",
                             "toolhead": "Single 3.00",
                             "value": 75.0
                         }
-                    ],                    
+                    ],   
+                    "type": "double",
                     "value": 60.0
                 },
                 {
@@ -167,7 +160,7 @@
                         {
                             "printer": "ZMorph",
                             "toolhead": "Dual Pro",
-                            "value": 4.0
+                            "value": 5.0
                         },
                         {
                             "printer": "ZMorph",
@@ -180,14 +173,14 @@
                 },
                 {
                     "name": "retraction_height",
-                    "type": "double",
                     "overrides": [
                         {
                             "printer": "ZMorph",
                             "toolhead": "Dual Pro",
-                            "value": 0.1
+                            "value": 0.15
                         }
                     ],                    
+                    "type": "double",
                     "value": 0.05
                 },
                 {
@@ -205,7 +198,7 @@
                         }
                     ],
                     "type": "double",
-                    "value": 110.0
+                    "value": 100.0
                 },
                 {
                     "name": "retraction_speed_z",
@@ -234,14 +227,7 @@
                 },
                 {
                     "name": "wipe_retract_on_start",
-                    "type": "double",                    
-                    "overrides": [
-                        {
-                            "printer": "ZMorph",
-                            "toolhead": "Dual Pro",
-                            "value": 0.0
-                        }
-                    ],  
+                    "type": "double",
                     "value": 1.0
                 },
                 {

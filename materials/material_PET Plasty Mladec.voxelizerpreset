@@ -167,7 +167,7 @@
                         {
                             "printer": "ZMorph",
                             "toolhead": "Dual Pro",
-                            "value": 5.0
+                            "value": 4.0
                         },
                         {
                             "printer": "ZMorph",
@@ -184,7 +184,7 @@
                         {
                             "printer": "ZMorph",
                             "toolhead": "Dual Pro",
-                            "value": 0.15
+                            "value": 0.1
                         }
                     ],                       
                     "type": "double",
@@ -235,6 +235,13 @@
                 {
                     "name": "wipe_retract_on_start",
                     "type": "double",
+                    "overrides": [
+                        {
+                            "printer": "ZMorph",
+                            "toolhead": "Dual Pro",
+                            "value": 0.0
+                        }
+                    ],                    
                     "value": 1.0
                 },
                 {

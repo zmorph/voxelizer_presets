@@ -1,42 +1,47 @@
 {
     "presets": [
         {
-            "group": "PET",
+            "group": "NYLON",
             "is_protected": true,
-            "preset_name": "PET Innofil",
+            "preset_name": "PA CF eSun",
             "preset_type": "material",
             "settings": [
                 {
                     "name": "adhesion_ratio_max",
                     "type": "double",
-                    "value": 2.0
+                    "value": 2.5
+                },
+                {
+                    "name": "adhesion_ratio_min",
+                    "type": "double",
+                    "value": 1.5
                 },
                 {
                     "name": "artifact_print_speed_percentage",
                     "type": "double",
-                    "value": 100.0
+                    "value": 150.0
                 },
                 {
                     "name": "bottom_layer_empty_space",
                     "type": "double",
-                    "value": 0.2
+                    "value": 0.15
                 },
                 {
                     "name": "default_print_speed",
-                    "type": "double",
-                    "value": 24.0
-                },
-                {
-                    "name": "extruder_temperature",
                     "overrides": [
                         {
                             "printer": "ZMorph",
-                            "toolhead": "Single 3.00",
-                            "value": 240.0
+                            "toolhead": "Dual Pro",
+                            "value": 24.0
                         }
                     ],
                     "type": "double",
-                    "value": 235.0
+                    "value": 30.0
+                },
+                {
+                    "name": "extruder_temperature",
+                    "type": "double",
+                    "value": 250.0
                 },
                 {
                     "name": "extrusion_multiplier",
@@ -44,9 +49,14 @@
                     "value": 1.0
                 },
                 {
+                    "name": "fan_min_speed_percentage",
+                    "type": "double",
+                    "value": 20.0
+                },
+                {
                     "name": "fan_speed_percentage",
                     "type": "double",
-                    "value": 100.0
+                    "value": 50.0
                 },
                 {
                     "name": "filament_diameter",
@@ -66,11 +76,11 @@
                         {
                             "printer": "ZMorph",
                             "toolhead": "Single 1.75",
-                            "value": 0.97
+                            "value": 1.0
                         }
                     ],
                     "type": "double",
-                    "value": 0.97
+                    "value": 1.0
                 },
                 {
                     "name": "filament_min_artifact_length",
@@ -105,6 +115,16 @@
                     "value": 0.35
                 },
                 {
+                    "name": "flow_max_multiplier",
+                    "type": "double",
+                    "value": 2.0
+                },
+                {
+                    "name": "flow_min_multiplier",
+                    "type": "double",
+                    "value": 0.5
+                },
+                {
                     "name": "gradient_min_artifact_length",
                     "type": "double",
                     "value": 5.0
@@ -112,29 +132,22 @@
                 {
                     "name": "height_max_multiplier",
                     "type": "double",
-                    "value": 0.85
+                    "value": 0.75
                 },
                 {
                     "name": "height_min_multiplier",
                     "type": "double",
-                    "value": 0.3
+                    "value": 0.4
                 },
                 {
                     "name": "hotbed_temperature",
                     "type": "double",
-                    "overrides": [
-                        {
-                            "printer": "ZMorph",
-                            "toolhead": "Single 3.00",
-                            "value": 75.0
-                        }
-                    ],                    
-                    "value": 60.0
+                    "value": 100.0
                 },
                 {
                     "name": "infill_print_speed_percentage",
                     "type": "double",
-                    "value": 150.0
+                    "value": 100.0
                 },
                 {
                     "name": "minimum_layer_time",
@@ -163,32 +176,13 @@
                 },
                 {
                     "name": "retraction_amount",
-                    "overrides": [
-                        {
-                            "printer": "ZMorph",
-                            "toolhead": "Dual Pro",
-                            "value": 4.0
-                        },
-                        {
-                            "printer": "ZMorph",
-                            "toolhead": "Single 3.00",
-                            "value": 6.0
-                        }
-                    ],
                     "type": "double",
-                    "value": 3.5
+                    "value": 6.0
                 },
                 {
                     "name": "retraction_height",
                     "type": "double",
-                    "overrides": [
-                        {
-                            "printer": "ZMorph",
-                            "toolhead": "Dual Pro",
-                            "value": 0.1
-                        }
-                    ],                    
-                    "value": 0.05
+                    "value": 0.1
                 },
                 {
                     "name": "retraction_speed_e",
@@ -197,15 +191,10 @@
                             "printer": "ZMorph",
                             "toolhead": "Dual Pro",
                             "value": 30.0
-                        },
-                        {
-                            "printer": "ZMorph",
-                            "toolhead": "Single 3.00",
-                            "value": 130.0
                         }
                     ],
                     "type": "double",
-                    "value": 110.0
+                    "value": 100.0
                 },
                 {
                     "name": "retraction_speed_z",
@@ -234,20 +223,18 @@
                 },
                 {
                     "name": "wipe_retract_on_start",
-                    "type": "double",                    
-                    "overrides": [
-                        {
-                            "printer": "ZMorph",
-                            "toolhead": "Dual Pro",
-                            "value": 0.0
-                        }
-                    ],  
+                    "type": "double",
                     "value": 1.0
                 },
                 {
                     "name": "fan_free_layers",
                     "type": "int",
                     "value": 1
+                },
+                {
+                    "name": "adaptive_layer_height",
+                    "type": "bool",
+                    "value": false
                 },
                 {
                     "name": "enable_fan",
@@ -260,9 +247,14 @@
                     "value": true
                 },
                 {
+                    "name": "fan_dynamic_cooling",
+                    "type": "bool",
+                    "value": false
+                },
+                {
                     "name": "first_layer_transition",
                     "type": "bool",
-                    "value": true
+                    "value": false
                 },
                 {
                     "name": "move_inside_object",
@@ -297,7 +289,7 @@
                 {
                     "name": "printing_hint",
                     "type": "string",
-                    "value": "Attach cooling fan(s)\nUse covers\nApply adhesive agent"
+                    "value": "Attach cooling fan(s)\nUse covers\nApply adhesive agent\nDo not overheat the material"
                 }
             ]
         }
