@@ -177,7 +177,7 @@
                 {
                     "name": "minimum_layer_time",
                     "type": "double",
-                    "value": 0
+                    "value": 0.0
                 },
                 {
                     "name": "power_raft_second_layer_angle_offset",
@@ -335,7 +335,7 @@
                     "type": "string",
                     "value": "Use covers\nApply adhesive agent"
                 }
-            ]            
+            ]
         }
     ]
 }

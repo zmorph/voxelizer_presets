@@ -27,7 +27,7 @@
                     "value": 24.0
                 },
                 {
-                    "name": "extruder_temperature",               
+                    "name": "extruder_temperature",
                     "type": "double",
                     "value": 245.0
                 },
@@ -120,7 +120,7 @@
                             "toolhead": "Single 3.00",
                             "value": 75.0
                         }
-                    ],   
+                    ],
                     "type": "double",
                     "value": 60.0
                 },
@@ -132,7 +132,7 @@
                 {
                     "name": "minimum_layer_time",
                     "type": "double",
-                    "value": 0
+                    "value": 0.0
                 },
                 {
                     "name": "power_raft_second_layer_angle_offset",
@@ -179,7 +179,7 @@
                             "toolhead": "Dual Pro",
                             "value": 0.15
                         }
-                    ],                    
+                    ],
                     "type": "double",
                     "value": 0.05
                 },
